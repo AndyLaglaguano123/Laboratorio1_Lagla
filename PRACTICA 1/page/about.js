@@ -7,15 +7,15 @@ class MiAbout extends HTMLElement {
     connectedCallback() {
         const sections = [
             {
-                title: "Qui&eacute;nes somos",
-                description: "Somos una aplicaci&oacute;n creada para mostrar im&aacute;genes y contenido visual de forma clara, ordenada y atractiva."
+                title: "Quiénes somos",
+                description: "Somos una aplicación creada para mostrar imágenes y contenido visual de forma clara, ordenada y atractiva."
             },
             {
-                title: "Nuestra misi&oacute;n",
-                description: "Ofrecer una experiencia sencilla para explorar galer&iacute;as, informaci&oacute;n y nuevas secciones usando custom elements."
+                title: "Nuestra misión",
+                description: "Ofrecer una experiencia sencilla para explorar galerías, información y nuevas secciones usando custom elements."
             },
             {
-                title: "Nuestra visi&oacute;n",
+                title: "Nuestra visión",
                 description: "Seguir creciendo con una estructura modular que permita agregar nuevas vistas y componentes de manera organizada."
             }
         ];
@@ -73,7 +73,7 @@ class MiAbout extends HTMLElement {
         <section class="about">
             <h2>Sobre nosotros</h2>
             <p class="intro">
-                Esta secci&oacute;n presenta informaci&oacute;n general sobre el proyecto y su prop&oacute;sito.
+                Esta sección presenta información general sobre el proyecto y su propósito.
             </p>
             <div class="grid">
                 ${sections.map((item) => `

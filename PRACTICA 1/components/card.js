@@ -6,8 +6,8 @@ class MiCard extends HTMLElement {
 
     connectedCallback() {
         const src = this.getAttribute('src') || '';
-        const title = this.getAttribute('title') || 'Sin t\u00edtulo';
-        const description = this.getAttribute('description') || 'Sin descripci\u00f3n';
+        const title = this.getAttribute('title') || 'Sin título';
+        const description = this.getAttribute('description') || 'Sin descripción';
 
         this.shadowRoot.innerHTML = `
         <style>

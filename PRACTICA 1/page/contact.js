@@ -7,9 +7,9 @@ class MiContact extends HTMLElement {
     connectedCallback() {
         const contacts = [
             {
-                title: "Tel&eacute;fono",
+                title: "Teléfono",
                 value: "0979521365",
-                detail: "Atenci&oacute;n de lunes a viernes, de 08:00 a 17:00."
+                detail: "Atención de lunes a viernes, de 08:00 a 17:00."
             },
             {
                 title: "Correo",
@@ -17,9 +17,9 @@ class MiContact extends HTMLElement {
                 detail: "Respondemos consultas, soporte y solicitudes."
             },
             {
-                title: "Ubicaci&oacute;n",
+                title: "Ubicación",
                 value: "Santo Domingo, Ecuador",
-                detail: "Vis&iacute;tanos para conocer nuestros espacios y servicios."
+                detail: "Visítanos para conocer nuestros espacios y servicios."
             }
         ];
 
@@ -82,7 +82,7 @@ class MiContact extends HTMLElement {
         <section class="contact">
             <h2>Contactos</h2>
             <p class="intro">
-                Aqu&iacute; puedes encontrar nuestros canales principales de comunicaci&oacute;n.
+                Aquí puedes encontrar nuestros canales principales de comunicación.
             </p>
             <div class="grid">
                 ${contacts.map((item) => `

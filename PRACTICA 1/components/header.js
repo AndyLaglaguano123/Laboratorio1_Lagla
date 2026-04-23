@@ -36,11 +36,11 @@ class MiHeader extends HTMLElement {
                 }
         </style>
         <header>
-            <h1>Aplicaci&oacute;n de galer&iacute;a</h1>
+            <h1>Aplicación de galería</h1>
             <nav>
             <a href="#/home">Inicio</a>
-            <a href="#/gallery">Galer&iacute;a</a>
-            <a href="#/direction">Direcci&oacute;n</a>
+            <a href="#/gallery">Galería</a>
+            <a href="#/direction">Dirección</a>
             <a href="#/contact">Contactos</a>
             <a href="#/about">Sobre nosotros</a>
             </nav>

@@ -9,7 +9,7 @@ class MiGallery extends HTMLElement {
             {
                 src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1170&q=80",
                 title: "Paisaje",
-                description: "Hermoso paisaje natural con monta&ntilde;as y un lago"
+                description: "Hermoso paisaje natural con montañas y un lago"
             },
             {
                 src: "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1170&q=80",
@@ -23,8 +23,8 @@ class MiGallery extends HTMLElement {
             },
             {
                 src: "https://images.unsplash.com/photo-1618641662184-bafefb91a542?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGVvbnxlbnwwfHwwfHx8MA%3D%3D",
-                title: "Le&oacute;n",
-                description: "Le&oacute;n en la sabana"
+                title: "León",
+                description: "León en la sabana"
             }
 
         ];

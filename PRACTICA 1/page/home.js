@@ -7,16 +7,16 @@ class MiHome extends HTMLElement {
     connectedCallback() {
         const highlights = [
             {
-                title: "Galer&iacute;a din&aacute;mica",
-                description: "Explora im&aacute;genes organizadas en tarjetas con una presentaci&oacute;n limpia y moderna."
+                title: "Galería dinámica",
+                description: "Explora imágenes organizadas en tarjetas con una presentación limpia y moderna."
             },
             {
-                title: "Navegaci&oacute;n simple",
-                description: "Cada secci&oacute;n se muestra con rutas por hash y componentes reutilizables."
+                title: "Navegación simple",
+                description: "Cada sección se muestra con rutas por hash y componentes reutilizables."
             },
             {
                 title: "Componentes propios",
-                description: "Toda la interfaz est&aacute; construida usando custom elements para mantener una estructura clara."
+                description: "Toda la interfaz está construida usando custom elements para mantener una estructura clara."
             }
         ];
 
@@ -125,15 +125,15 @@ class MiHome extends HTMLElement {
 
         <section class="home">
             <section class="hero">
-                <h2>Bienvenido a nuestra galer&iacute;a</h2>
+                <h2>Bienvenido a nuestra galería</h2>
                 <p class="lead">
-                    Este espacio muestra una aplicaci&oacute;n construida con custom elements,
+                    Este espacio muestra una aplicación construida con custom elements,
                     pensada para organizar contenido visual y navegar entre secciones
                     de forma sencilla.
                 </p>
                 <div class="actions">
-                    <a class="primary" href="#/gallery">Ver galer&iacute;a</a>
-                    <a class="secondary" href="#/about">Conocer m&aacute;s</a>
+                    <a class="primary" href="#/gallery">Ver galería</a>
+                    <a class="secondary" href="#/about">Conocer más</a>
                 </div>
             </section>
 
@@ -141,21 +141,21 @@ class MiHome extends HTMLElement {
                 <div class="summary">
                     <div>
                         <strong>4 secciones</strong>
-                        <p>Inicio, galer&iacute;a, direcci&oacute;n y p&aacute;ginas informativas.</p>
+                        <p>Inicio, galería, dirección y páginas informativas.</p>
                     </div>
                     <div>
                         <strong>100% modular</strong>
                         <p>Cada vista vive en su propio archivo y se renderiza como componente.</p>
                     </div>
                     <div>
-                        <strong>Dise&ntilde;o claro</strong>
-                        <p>La informaci&oacute;n principal aparece organizada en bloques f&aacute;ciles de leer.</p>
+                        <strong>Diseño claro</strong>
+                        <p>La información principal aparece organizada en bloques fáciles de leer.</p>
                     </div>
                 </div>
             </section>
 
             <section class="panel">
-                <h2>Lo que encontrar&aacute;s aqu&iacute;</h2>
+                <h2>Lo que encontrarás aquí</h2>
                 <div class="grid">
                     ${highlights.map((item) => `
                         <article>
